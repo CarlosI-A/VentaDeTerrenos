@@ -1,0 +1,361 @@
+
+body{
+    
+    background-color: #e4e6e6 ;
+    width: 850px;
+    
+    margin:0 auto auto auto;
+    }
+.grid {
+    display: grid;
+    grid-template-columns: 212px 212px 212px 212px; 
+    grid-template-rows:75px 15px 50px 500px 20px 400px 150px;
+    background-color:  #edf4f5;
+   
+   
+
+}
+
+.elemento1 {
+    
+
+    display: grid;
+    grid-column: 1/5;
+    color:white;
+}
+
+.elemento4 {
+    display: grid;
+    grid-column: 1/5;
+    
+}   
+
+.elemento5 {
+    display: grid;
+    grid-column: 3/5;
+    
+}   
+.Anidado-element4 {
+    
+    border-top: 2px solid black;  
+} 
+
+
+
+
+
+
+.grid > div {
+
+    background-color:  #edf4f5;
+    padding:1em;
+}
+
+.grid div:hover {
+
+    border: 1px solid blue;
+}
+
+
+
+
+
+.header {
+    
+    background: white;
+    height: 40px;
+    width: 850px;
+    position: fixed;
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-link{
+
+    color:gray;
+    text-decoration: none;
+
+}
+
+.logo {
+
+    margin-left:10px;
+    font-size: 14px;
+    padding: 0;
+    line-height: 40px;
+
+
+}
+
+.nav-menu {
+
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+
+
+}
+
+.nav-menu-item {
+
+    font-size:15px;
+    line-height:40px ;
+    width:max-content;
+}
+
+.nav-toggle {    
+    color:#013ADF;
+    background: none;
+    border: none;
+    font-size: 30px;
+    margin-left:0px;
+    padding: 0;
+}
+
+.fas fa-home {
+
+    margin-left: 0%;
+}
+.nav2 {
+
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.nav-link2{
+
+   
+    
+    
+    text-decoration: none;
+    margin-top: 0%;
+
+}
+.nav-link2-2 {
+
+    color:#696969;
+    font-size: 25px;
+    text-decoration: none;
+
+    font-family:Helvetica;
+ 
+
+}
+.nav-link2-3 {
+
+    font-size: 14px;
+    color:white;
+    margin-right:0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family:Helvetica;
+    text-decoration: none;
+    background:#5A7CE9;
+    
+    
+    
+    
+
+}
+
+.nav-item2 {
+
+    font-size:15px;
+    line-height:15px ;
+    width:max-content;
+    
+}
+
+.nav-menu-item2 {
+
+    font-size:12px;
+    line-height:80px ;
+    
+    
+}
+
+
+
+.logo2 {
+
+    color:#1E90FF;
+
+    align-items: flex-start;
+    font-size: 30px;
+    padding: 0;
+    line-height: 90px;
+    
+
+
+}
+
+.nav-menu2 {
+
+    display: flex;
+    list-style: none;
+    margin-top: 35px;
+    margin-right: -17px;
+
+
+
+}
+
+.nav-menu-item2 {
+
+    font-size:40px ;
+    
+    line-height:1px ;
+    margin-right: 0%;
+
+}
+
+.redesfooter{
+
+height:40px;
+background-color: white;
+padding-top: 0px;
+
+}
+
+.redes-ul {
+    text-align: right;
+
+}
+
+.redes-ul li {
+
+    display: inline-block;
+
+}
+
+.espacioSolo_Dos {
+
+    
+    display: grid;
+    grid-column: 1/5;
+    border-top: 1px solid gray ;
+
+}
+
+.espacio3 {
+
+    display: grid;
+    grid-column: 1/5;
+   
+
+
+  
+
+}
+
+.header2 {
+    
+    
+    height: 30px;
+    width: 850px;
+  
+
+}
+
+.navRegresar {
+
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-linkRegresar{
+
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
+    font-family:Helvetica;
+    text-decoration: none;
+    align-items: start;
+    background:#2e4ba8;
+
+}
+
+.Regresar {
+
+    margin-left:10px;
+    font-size: 15px;
+    padding: 0;
+    line-height: 40px;
+    color: black;
+
+
+}
+
+.nav-menuRegresar {
+
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+
+
+}
+
+.nav-menu-itemRegresar {
+
+    font-size:10px;
+    line-height:40px ;
+    width:max-content;
+    margin-right: 25px;
+}
+
+.Anidado {
+    
+    border-top: 2px solid black;  
+} 
+
+.TituloTerreno01 {
+
+    justify-items: left;
+}
+
+.ImagenTerreno01 {
+
+    width: 350px;
+    height: 300px;
+}
+
+.SegundaDescripcion {
+
+    
+
+}
+
+.MENUALINEADO {
+
+    
+    
+    list-style: none;
+    margin-top: -20px;
+
+}
+
+.LISTAalineada {
+
+    font-size:15px;
+    line-height:20px ;
+    width:max-content;
+    margin-left: -40px;
+    padding-left: -40px;
+    margin-top: -5px;
+   
+
+
+}
